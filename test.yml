@@ -9,7 +9,7 @@ spring:
         defaultRabbit:
           type: rabbit
       bindings:
-        intput:
+        input:
           destination: studyExchange
           content-type: application/json
           binder: defaultRabbit
